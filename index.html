@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+</head>
+<body>
+    <header>
+        <div class="search_city">
+            <input type="text" placeholder="Enter city">
+            <button> <img src="pictures/search.png" alt=""></button>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+                    <div class="weather">
+                    <h1 class="temp">22 &#8451;</h1> 
+                    <h2 class="city">New York</h2>
+                    <div class="details">
+                        <div class="col">
+                            <div>
+                                <p class="humidity">50%</p>
+                                <p>Humidity</p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div>
+                                <p class="wind">15 km/h</p>
+                                <p>Wind Speed</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>         
+        </div>
+        <div class="container">
+                <div class="day_tomorrow">
+                <h2 class="day_name_tomorrow">Tomorrow</h2>
+                <p class="day_temp_tomorrow">23 &#8451;</p>
+                <p class="day_desc_tomorrow">Sunny</p>
+            </div>
+                <div class="day_after_tomorrow">
+                <h2 class="day_name_after_tomorrow">Day after tomorrow</h2>
+                <p class="day_temp_after_tomorrow">24 &#8451;</p>
+                <p class="day_desc_after_tomorrow">Partly Cloudy</p>
+            </div>
+        </div>
+    </main>
+    <script src="./js/main.js"></script>
+</body>
+</html>
